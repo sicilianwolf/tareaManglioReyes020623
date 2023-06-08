@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curso React, tarea viernes 2 de junio 2023</title>
+    <script src="tarea2.js"></script>
+    <link rel="stylesheet" href="tarea2.css">
+</head>
+<body>
+
+  <form>
+    <fieldset>
+     <legend>Problema 1, verificar pal&iacute;ndome</legend>
+    <label for="palabra">Palabra</label>
+    <input type="text" id="palabra" name="palabra">
+    <button type="button" onclick="revisaPalindromo()">Verificar</button>
+    <p id="resultadoPalindrome"></p>
+    </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+     <legend>Problema 2, modificar vocales </legend>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre">
+    <button type="button" onclick="cambiaNombre()">Cambiar nombre</button>
+    <p id="resultadoCambiaNombre"></p>
+    </fieldset>
+  </form>
+
+
+  <form>
+    <fieldset>
+     <legend>Problema 3, Calcular edad </legend>
+    <label for="nombrecompleto">Nombre completo</label>
+    <input type="text" id="nombrecompleto" name="nombrecompleto">
+    <label for="fecha">fecha de cumplea&ntilde;os</label>
+    <input type="text" id="fecha" name="fecha">
+    <button type="button" onclick="calculaEdad()">Calcula edad</button>
+    <p id="resultadoEdad"></p>
+  </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+     <legend>Problema 4, N&uacute;meros primos </legend>
+     <button type="button" onclick="calculaPrimos()">Calcular primos</button>
+     <div id="listadoPrimos">
+
+
+     </div>
+    </fieldset>
+  </form>
+
+
+</body>
+</html>
